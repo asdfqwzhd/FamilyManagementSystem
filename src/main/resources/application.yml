@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: fms
+    password: fms
+    url: jdbc:postgresql://localhost:5432/fmsdb_dev
+    driver-class-name: org.postgresql.Driver
+  security:
+    user:      name: admin
+      password: admin
+ 
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
